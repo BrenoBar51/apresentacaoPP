@@ -10,5 +10,11 @@ async function kanyeWest(){
     teste.innerHTML = data.quote
 }
 
+function chuckNorris(){
+    fetch('https://api.chucknorris.io/jokes/random')
+    .then()
+    .then()
+}
+
 btn.addEventListener('click', kanyeWest)
 btn2.addEventListener('click', chuckNorris)
